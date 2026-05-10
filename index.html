@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inicio</title>
+
+<style>
+body{margin:0;font-family:Arial;background:#111;color:white;}
+
+nav{position:fixed;top:0;width:100%;z-index:1000;}
+
+.menu,.menu--child{list-style:none;margin:0;padding:0;}
+.menu{display:flex;justify-content:center;background:#333;}
+.menu__item{position:relative;}
+.menu__link,.menu__link--child{padding:15px;display:block;color:#ddd;text-decoration:none;}
+.menu__item:hover{background:#111;}
+
+.menu--child{
+position:absolute;top:100%;left:0;background:#333;
+transform:scaleY(0);transform-origin:top;transition:.3s;
+}
+.menu__item:hover .menu--child{transform:scaleY(1);}
+
+main{
+  margin-top:20px; 
+padding:20px;}
+
+.portada{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.imagen{
+  width:90%;
+  height:80vh;
+  overflow:hidden;
+}
+
+.imagen img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.texto{
+  width:95%;
+  margin-top:20px;
+  text-align:justify;
+}
+
+
+h1{
+  text-align:center;    
+  margin-top:20px;      
+  margin-bottom:20px;
+}
+
+h2{
+  text-align:center;    
+  margin-top:10px;      
+  margin-bottom:20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul class="menu">
+
+<li class="menu__item"><a href="index.html" class="menu__link">INICIO</a></li>
+
+<li class="menu__item">
+<a href="historia.html" class="menu__link">TEMA HISTÓRICO</a>
+<ul class="menu--child">
+<li><a href="historia.html#historia" class="menu__link--child">Historia</a></li>
+<li><a href="historia.html#contexto" class="menu__link--child">Contexto</a></li>
+<li><a href="historia.html#consecuencias" class="menu__link--child">Consecuencias</a></li>
+</ul>
+</li>
+
+<li class="menu__item">
+<a href="personajes.html" class="menu__link">CORTOMETRAJE</a>
+<ul class="menu--child">
+<li><a href="personajes.html#descripcion" class="menu__link--child">Descripción</a></li>
+<li><a href="personajes.html#elaboracion" class="menu__link--child">Elaboración</a></li>
+<li><a href="personajes.html#trailer" class="menu__link--child">Trailer</a></li>
+<li><a href="personajes.html#final" class="menu__link--child">Producto final</a></li>
+</ul>
+</li>
+
+<li class="menu__item">
+<a href="produccion.html" class="menu__link">EQUIPO</a>
+<ul class="menu--child">
+<li><a href="produccion.html#integrantes" class="menu__link--child">Integrantes</a></li>
+<li><a href="produccion.html#evidencias" class="menu__link--child">Evidencias</a></li>
+<li><a href="produccion.html#conclusiones" class="menu__link--child">Conclusiones</a></li>
+</ul>
+</li>
+
+</ul>
+</nav>
+
+<main>
+
+<h1>8:46 LA HORA QUE CAMBIO AL MUNDO</h1>
+
+<div class="portada">
+<div class="imagen"><img src="C:\Users\DELL\Downloads\WhatsApp Image 2026-05-09 at 22.18.59.jpeg" width="100%" height="100%"></div>
+
+<div class="texto">
+<h2>Cortometraje basado en los hechos del 9/11</h2>
+<p>Este cortometraje narra la historia de dos hermanos que, sin saberlo, se ven envueltos en uno de los atentados más impactantes de la historia. A través de su relación, se muestra el contraste entre la vida cotidiana y el caos repentino provocado por el ataque. La historia busca transmitir emociones como el miedo, la incertidumbre y el valor, destacando la importancia de la familia en momentos críticos. Más que contar un hecho histórico, el cortometraje se enfoca en el lado humano de la tragedia y en cómo cambia la vida de las personas en segundos.</p>
+
+<p>Este proyecto audiovisual esta basado en los atentados del 11 de septiembre de 2001, conocidos comúnmente como 9/11 o 11-S, fueron una serie de cuatro ataques terroristas suicidas coordinados por la organización yihadista Al Qaeda contra Estados Unidos. Esa mañana, 19 terroristas secuestraron cuatro aviones comerciales para utilizarlos como misiles, impactando objetivos simbólicos y estratégicos en Nueva York y Virginia.</p>
+</div>
+</div>
+
+</main>
+</body>
+</html>

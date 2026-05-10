@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cortometraje</title>
+
+<style>
+body{margin:0;font-family:Arial;background:#111;color:white;}
+nav{position:fixed;top:0;width:100%;z-index:1000;}
+.menu,.menu--child{list-style:none;margin:0;padding:0;}
+.menu{display:flex;justify-content:center;background:#333;}
+.menu__item{position:relative;}
+.menu__link,.menu__link--child{padding:15px;color:#ddd;text-decoration:none;display:block;}
+.menu__item:hover{background:#111;}
+.menu--child{position:absolute;top:100%;background:#333;transform:scaleY(0);transition:.3s;}
+.menu__item:hover .menu--child{transform:scaleY(1);}
+main{margin-top:90px;padding:20px;}
+.seccion{display:flex;gap:20px;margin-bottom:80px;}
+.imagen{border:2px dashed white;}
+.texto{width:50%;}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul class="menu">
+
+<li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+
+<li class="menu__item">
+<a href="historia.html" class="menu__link">TEMA HISTÓRICO</a>
+<ul class="menu--child">
+<li><a href="historia.html#historia" class="menu__link--child">Historia</a></li>
+<li><a href="historia.html#contexto" class="menu__link--child">Contexto</a></li>
+<li><a href="historia.html#consecuencias" class="menu__link--child">Consecuencias</a></li>
+</ul>
+</li>
+
+<li class="menu__item">
+<a href="personajes.html" class="menu__link">CORTOMETRAJE</a>
+<ul class="menu--child">
+<li><a href="personajes.html#descripcion" class="menu__link--child">Descripción</a></li>
+<li><a href="personajes.html#elaboracion" class="menu__link--child">Elaboración</a></li>
+<li><a href="personajes.html#trailer" class="menu__link--child">Trailer</a></li>
+<li><a href="personajes.html#final" class="menu__link--child">Producto final</a></li>
+<li><a href="personajes.html#poster" class="menu__link--child">Poster</a></li>
+
+</ul>
+</li>
+
+<li class="menu__item">
+<a href="produccion.html" class="menu__link">EQUIPO</a>
+<ul class="menu--child">
+<li><a href="produccion.html#integrantes" class="menu__link--child">Integrantes</a></li>
+<li><a href="produccion.html#evidencias" class="menu__link--child">Evidencias</a></li>
+<li><a href="produccion.html#conclusiones" class="menu__link--child">Conclusiones</a></li>
+</ul>
+</li>
+
+</ul>
+</nav>
+
+<main>
+
+<section id="descripcion" class="seccion">
+<div class="imagen"><img src="C:\Users\DELL\Desktop\Captura de pantalla 2026-05-04 222610.png" width="100%" height="100%"></div>
+<div class="texto"><h2>Descripción</h2>
+<p>
+Es un cortometraje basado en hechos reales, con una historia ficticia en donde dos hermanos, trabajadores del World Trade Center, empiezan festejando el cumpleaños de uno de ellos. Por esta situación, Tom cubre a su hermano Henry en el trabajo el día que sucede el atentado del 9/11 y, desgraciadamente, este personaje es víctima de todo lo ocurrido, pues al final sufre las consecuencias quedando sin vida.
+</p>
+
+<br>
+
+<strong>Actores:</strong>
+<ul>
+  <li>Leo Oviedo - Como HENRY, protagonista de la historia</li>
+  <li>Haile Arteaga - Como TOM, hermano de Henry</li>
+  <li>Grecia Danay - Como Vanessa, compañera de trabajo de los hermanos</li>
+  <li>Issac Agudilón - Como terrorista</li>
+  <li>Esaú Contreras - Como terrorista</li>
+</ul>
+
+<br>
+
+<strong>Locaciones:</strong>
+<ul>
+  <li>Parque Tangamanga 1</li>
+  <li>Casa de alumna</li>
+  <li>Oficinas de “BienveNidoz”</li>
+  <li>Cementerio “Valle de los Cedros”</li>
+</ul>
+
+</div>
+</section>
+
+<section id="elaboracion" class="seccion">
+<div class="imagen"><img src="C:\Users\DELL\Desktop\WhatsApp Image 2026-05-04 at 22.45.47.jpeg" width="100%" height="100%"></div>
+<div class="texto"><h2>Elaboración</h2><p>El cortometraje que estamos desarrollando es el resultado del trabajo conjunto de un equipo conformado por 11 integrantes, cada uno aportando ideas, esfuerzo y creatividad en distintas áreas de la producción. A lo largo del proceso, nos hemos enfrentado a algunos retos, principalmente relacionados con la disponibilidad de tiempo de los participantes, lo cual en ocasiones dificultó la coordinación para realizar las grabaciones. A pesar de ello, logramos organizarnos y aprovechar al máximo los momentos en los que todos podíamos coincidir, demostrando compromiso con el proyecto.</p>
+
+
+<p><p>Para la realización del cortometraje, también fue necesario recurrir a recursos prácticos como el uso de maquillaje para simular las heridas de los sobrevivientes, lo cual contribuyó a dar mayor realismo a las escenas. Este aspecto, aunque sencillo, fue importante para transmitir de manera más efectiva la situación que viven los personajes y generar un mayor impacto visual en la audiencia.</p>
+
+
+<p><p>Debido a que se trata de una producción con recursos limitados, algunas ideas no se presentan de manera directa, sino que se sugieren a través de elementos visuales, actuaciones y contexto. Esto implicó un reto adicional, ya que tuvimos que buscar formas creativas de comunicar el mensaje sin depender de grandes efectos o producción avanzada. Sin embargo, esta misma limitación nos impulsó a ser más ingeniosos y a cuidar cada detalle disponible.</p>
+</div>
+ 
+</section>
+
+<section id="trailer" class="seccion">
+<div class="imagen"><a href="https://youtu.be/eJ64KRT8MLw">Ir a Google</a> </div>
+<div class="texto"><h2>Trailer</h2></div>
+</section>
+
+<section id="final" class="seccion">
+<div class="imagen"><a href="https://youtu.be/1spHdxy89vE">Ir a Google</a></div>
+<div class="texto"><h2>Producto final</h2></div>
+</section>
+
+<section id="poster" class="seccion">
+<div class="imagen"><img src="C:\Users\DELL\Desktop\poster.M6C.png" width="100%" height="100%"></div>
+<div class="texto"><h2>Poster oficial</h2></div>
+</section>
+
+</main>
+</body>
+</html>
